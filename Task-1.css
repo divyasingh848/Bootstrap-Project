@@ -1,0 +1,171 @@
+body{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'ABeeZee';
+}
+
+#title{
+    background-color: rgb(250, 248, 248);
+  /* color: rgb(15, 15, 15); */
+}
+
+.title-img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+
+.title-logo{
+    position: absolute;
+    left: 10px; 
+    top:0px;
+    border: 15px solid white;
+    /* border-radius: 100%;  */
+    border-bottom-left-radius: 25px; 
+    border-bottom-right-radius: 25px; 
+}
+
+.title-p{
+    background-color: rgb(245, 9, 9);
+    color: rgb(245, 244, 244);
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    /* margin: 0% 0% 0% 0% ; */
+
+}
+
+.form-box{
+    /* background-color:rgb(245, 9, 9) ; */
+    position: absolute;
+    left: 60%; 
+    top:20px;
+    /* border: 15px solid red; */
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: #f8a12f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #91560a;
+  }
+
+#chart{
+  text-align: center;
+}
+
+.charticon1{
+   width: 100%;
+   height: auto;
+}
+
+.charticon{
+    margin: auto;
+    display: block;
+
+}
+
+#features{
+    margin: 5% 0% 5% 0%;
+    padding: 7% 15%;
+    background-color: rgb(245, 9, 9);
+    color: white;
+    text-align: center;
+    position: relative;
+   
+}
+
+/* testimonials */
+
+#testimonials{
+    
+    text-align: center;
+    background-color:white;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    /* font-weight: bolder; */
+}
+
+.carousel-item :-ms-keyboard-active{
+    text-align: justify;
+}
+
+.testimonialimg{
+    margin: 5% 0% 2% 5%;
+
+}
+
+.carsouel-item{
+    padding: 10% 25%;
+}
+
+.carousel-control{
+    background-color: rgb(224, 64, 91) ;
+}
+
+
+.testimonal-msg{
+    color: rgb(224, 64, 91);
+    text-align: center;
+    font-size: 1rem ;
+}
+
+.icon{
+    /* margin: 0% 0% 0% 2%; */
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.msgicon{
+    margin: auto;
+    display: block;
+    
+    /* text-align: center; */
+}
+
+
+/* footer */
+#footer{
+    padding: 100px;
+    text-align: center;
+   }
+   
+.Flogo{
+       padding: 20px;
+       margin: 20px 10px;
+   }
+
+
+.Fheading{
+    color: gray;
+    font-size: 1.5rem;
+
+}
+
+#copyright{
+    height:25%;
+    background-color: rgb(105, 105, 105);
+    color: white;
+    /* width: 200%; */
+    text-align: center;
+}
